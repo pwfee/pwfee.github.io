@@ -1,1 +1,73 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wenfeng Pan | 潘文鋒</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--********************************LANDING SECTION********************************-->
+    <section id = "landing">
+      <div class = "container-fluid">
+        <div id="particles-js" style="position:absolute; top: 0; left: 0; height: 810px; width: 100%;"></div>
+        <!--********************************NAV********************************-->
+         <div class = "row">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <a href="index.html#landing"><h3 class="masthead-brand">Wenfeng Pan | 潘文鋒</h3></a>
+            </div>
+          </div>
+        </div> <!--End Row-->
+        <!--*******************************END NAV******************************-->
+        <div class = "row">
+          <div style="padding-top: 7%;">
+            <div class = "inner cover">
+              <h1 class = "section-header">Welcome! 歡迎您</h1>
+              <br><br>
+              <img src="images/face.jpg" style="position: relative;" class = "img-circle">
+              <br><br><br>
+              <p class = "lead">
+                Thank you for your time to visit my home page! <br>
+                I am a Bachelor's student at Qingdao University studying software engineering.<br>
+                If you would like to contact me or take a look at my projects, <br>
+                scroll down or check out the links above!</p>
+            </div>
+          </div>
+        </div><!--End row-->
+      </div><!--End container-->
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sticky-footer.js"></script>
+    <!-- scripts -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!--Scrolling Animation Javascript-->
+    <script type="text/javascript">
+      var $root = $('html, body');
+      $('a').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 1000);
+      return false;
+      });
+    </script>
+  </body>
+</html>
