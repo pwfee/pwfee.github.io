@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Wenfeng</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/wenfeng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/wenfeng/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m pursuing a master’s degree in Computer Science and Engineering at the University at Buffalo. Now seeking a job in the field of Software Development.&lt;/p&gt;
+
+&lt;p&gt;I have a strong background in Software Development. This summer, I worked for Electronic Arts (EA) as the Systems Engineer Intern and built a microservices delivery request tool to expedite the process of building game servers. Also, I participated in the development of BaaS Platform as the Software Engineer Intern before.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;🎙️ 👨‍🍳 🎮 🎦&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
