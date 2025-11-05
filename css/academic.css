@@ -8441,6 +8441,12 @@ ul.network-icon {
 
 .network-icon li:hover {
   transform: scale(1.2); }
+.network-icon .contact-break {
+  flex-basis: 100%;
+  height: 0;
+  margin: 0;
+}
+
 
 .big-icon {
   font-size: 2rem; }
